@@ -212,7 +212,9 @@ def start_game():
 	run_again =input("do you want to play again Y/N: ")
 	run_again=run_again.lower()
 	if(run_again.startswith('y')):
+		clear_screen()
 		start_game()	
 
-
+clear_screen()
+print("Welcome to Tic-Tac-Toe!!\n")
 start_game()
